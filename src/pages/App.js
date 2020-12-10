@@ -1,5 +1,5 @@
 // import logo from '../img/logo.svg';
-import '../styles/App.css';
+import '../styles/App.scss';
 
 function App() {
     return (
@@ -19,13 +19,29 @@ function App() {
         </a> */}
 
             </header>
-            <div>
+            {/* <div>
                 <h1 class="intro">Я Саня</h1>
                 <div clas="buttons">
-                    <div>Кнопочки перехода будут тут</div>
-                    <div class="button__about"><span>Обо мне</span></div>
-                    <div class="button__works"><span>Мои работы</span></div>
-                    <div class="button__contacts"><span>Связаться со мной</span></div>
+                    <nav> */}
+                        {/* <div>Кнопочки перехода будут тут</div> */}
+                        {/* <ul class="button">
+                            <li class="button__about">
+                                <a href="#about-me">
+                                    <span>Обо мне</span>
+                                </a>
+                            </li>
+                            <li class="button__works">
+                                <a href="#my-works">
+                                    <span>Мои работы</span>
+                                </a>
+                            </li>
+                            <li class="button__contacts">
+                                <a href="#contact-me">
+                                  <span>Связаться со мной</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="about">
                     <div class="text"> Тут типа я скажу, на скок я крут</div>
@@ -34,19 +50,19 @@ function App() {
                 <div class="works">
                     <div>Покажу что я не пиздабол и реально что-то сделал</div>
                     <div>Засуну сюда куча всяких афиш</div>
-                    <div>Ну и всякий остальной дизигн</div>
+                    <div>Ну и всякий остальной дизигн</div> */}
                     {/* <div>Тигра дизигн</div>
                     <div>Фотовело осень дизигн</div>
                     <div>Фотовело весна дизигн</div>
                     <div>Фотовело лето дизигн</div> */}
-                    <div>Сайт какой-нить</div>
+                    {/* <div>Сайт какой-нить</div>
                     <div>Можно ещё бота засунуть</div>
                 </div>
                 <div class="contacts">
                     <div>Тут всякие телефоны и соц сети</div>
                 </div>
-            </div>
-        </div>
+            </div>*/}
+        </div> 
     );
 }
 
