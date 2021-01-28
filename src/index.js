@@ -274,7 +274,8 @@ function shMa() {
 }
 
 function shSi() {
-  let trueSh = []
+  let trueSh = [];
+  console.log('test');
   let unSh = [];
   let ansTrue = [32, 67, 82, 111, 117, 124, 138, 147, 171, 172, 180, 201, 236,
     267, 278, 292, 304, 316, 321, 332, 336, 342, 357, 377, 383,
